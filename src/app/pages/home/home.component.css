@@ -1,0 +1,27 @@
+.main-container{
+  background: rgba(96, 82, 82, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  border: 1px solid rgba(96, 82, 82, 0.14);
+  margin: 2% 6% 0 6%;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.img-container{
+  width: 340px;
+  height: 400px;
+  margin: 15px;
+  border-radius: 30%;
+
+}
+
+.infos-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
